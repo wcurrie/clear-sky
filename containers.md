@@ -16,3 +16,8 @@ systemd-nspawn
 Built as tool to test that systemd ran ok in containers ([lwn]("https://lwn.net/Articles/572957/")):
 
 > a tool that does much of what LXC and libvirt LXC do, but is easier to use. It is targeted at "building, testing, debugging, and profiling", not at deployment. systemd-nspawn uses the same kernel APIs that the other two tools use, but is not a competitor to them because it is not targeted at running in a production environment.
+
+libvirt
+-------
+
+Software to manage VMs, their storage and networks. Include an API library, a daemon (libvirtd), and a command line utility (virsh). It's not a hypervisor it's a layer to hide the differences between the many hypervisors. [project [FAQ]("http://wiki.libvirt.org/page/FAQ")].
