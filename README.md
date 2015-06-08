@@ -1,2 +1,2 @@
 # clear-sky
-Some thoughts on cloud related tech
+Some notes on technology.
